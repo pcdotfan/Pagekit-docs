@@ -1,11 +1,7 @@
 # Dashboard
 
-控制台式当你进入Pagekit管理中心所看到的第一个页面。所有的信息你都可以在这里找到，例如网站动态统计数据。也可以由用户自行配置——每一个用户都可以有一个独一无二的控制台。
+仪表板是你印入你眼帘的第一个进入pagekit后台的页面。所有的信息你都可以在这里找到，对你的网站的活动的统计数据了如指掌，对于用户，每个用户的仪表板可以看到不同的页面。
 
-The Dashboard is the first thing you see when entering the Pagekit administration area. All information you find here, e.g. statistics on your site’s activity, comes from widgets configured by the user - each user's dashboard can look different.
-
-这取决于你想让控制台显示什么样的信息。若要管理小工具是否显示或以怎样的顺序显示，请前往*设置 > 控制台*
-
-It is up to you what information you want to have displayed here. To manage which widgets are being displayed and what order they appear in, go to *Settings > Dashboard*.
+它是你的，你想要的信息已经显示在这里。管理小部件的显示，令他们出现在你的眼前，请前往设置>仪表盘。
 
 ![Dashboard](images/dashboard.png)
