@@ -1,18 +1,18 @@
-# Ç¨ÒÆ
+# è¿ç§»
 
-<p class="uk-article-lead">µ±ÓÐ²å¼þ°²×°»òÉý¼¶Ê±Ê¹ÓÃÇ¨ÒÆ</p>
+<p class="uk-article-lead">å½“æœ‰æ’ä»¶å®‰è£…æˆ–å‡çº§æ—¶ä½¿ç”¨è¿ç§»</p>
 
-²å¼þ(»òÖ÷Ìâ)¿ÉÒÔÆôÓÃ£¬½ûÓÃ»ò²»°²×°¡£µ±×´Ì¬¸Ä±äÊ±£¬Äã¿ÉÄÜÐèÒªÐÞ¸ÄÄãµÄÊý¾Ý¿âÄ£Ê½»òÕßÔËÐÐÆäËû×Ô¶¨Òå´úÂëÒª£¬×öµ½ÕâÒ»µã£¬ÓÐÈý¸ö²Ù×÷¿ÉÒÔ°ïÖúÄã¡£
+æ’ä»¶(æˆ–ä¸»é¢˜)å¯ä»¥å¯ç”¨ï¼Œç¦ç”¨æˆ–ä¸å®‰è£…ã€‚å½“çŠ¶æ€æ”¹å˜æ—¶ï¼Œä½ å¯èƒ½éœ€è¦ä¿®æ”¹ä½ çš„æ•°æ®åº“æ¨¡å¼æˆ–è€…è¿è¡Œå…¶ä»–è‡ªå®šä¹‰ä»£ç è¦ï¼Œåšåˆ°è¿™ä¸€ç‚¹ï¼Œæœ‰ä¸‰ä¸ªæ“ä½œå¯ä»¥å¸®åŠ©ä½ ã€‚
 
-| ²Ù×÷  | ÃèÊö         |
+| æ“ä½œ  | æè¿°         |
 |--------|-------------|
-| `enable`     | °²×°²å¼þ²¢¼¤»îÊ±´¥·¢ |
-| `disable`    | µ±ÄãÔÚºóÌ¨½ûÓÃ²å¼þÊ±´¥·¢£¬»ò²å¼þ¸üÐÂÊ±´¥·¢ |
-| `uninstall`  | µ±Äã´ÓºóÌ¨Ð´ÔÚ²å¼þÊ±´¥·¢ |
+| `enable`     | å®‰è£…æ’ä»¶å¹¶æ¿€æ´»æ—¶è§¦å‘ |
+| `disable`    | å½“ä½ åœ¨åŽå°ç¦ç”¨æ’ä»¶æ—¶è§¦å‘ï¼Œæˆ–æ’ä»¶æ›´æ–°æ—¶è§¦å‘ |
+| `uninstall`  | å½“ä½ ä»ŽåŽå°å†™åœ¨æ’ä»¶æ—¶è§¦å‘ |
 
-## Æô¶¯
+## å¯åŠ¨
 
-ÇëÈ·ÈÏÄúµÄ²å¼þÓÐÒ»¸ö»ù±¾Àà `Pagekit\Extension\Extension` ÊÇËüÓÐ `enable` Ä¬ÈÏ²»×öÈÎºÎ¶¯×÷£¬Í¨¹ý¸²¸Ç `enable` À´ÔËÐÐ×Ô¼ºµÄ´úÂë
+è¯·ç¡®è®¤æ‚¨çš„æ’ä»¶æœ‰ä¸€ä¸ªåŸºæœ¬ç±» `Pagekit\Extension\Extension` æ˜¯å®ƒæœ‰ `enable` é»˜è®¤ä¸åšä»»ä½•åŠ¨ä½œï¼Œé€šè¿‡è¦†ç›– `enable` æ¥è¿è¡Œè‡ªå·±çš„ä»£ç 
 
 ```php
 <?php
@@ -31,7 +31,7 @@ class HelloExtension extends Extension
 }
 ```
 
-Äú¿ÉÒÔÔÚÂú×ãÄ³Ð©Çé¿öµÄÌõ¼þÏÂ£¬Ê¹ÓÃ`Migrator`×Ô¶¯ÔËÐÐËùÐèµÄÈÎºÎÇ¨ÒÆ½Å±¾
+æ‚¨å¯ä»¥åœ¨æ»¡è¶³æŸäº›æƒ…å†µçš„æ¡ä»¶ä¸‹ï¼Œä½¿ç”¨`Migrator`è‡ªåŠ¨è¿è¡Œæ‰€éœ€çš„ä»»ä½•è¿ç§»è„šæœ¬
 
 ```php
 public function enable()
@@ -42,13 +42,13 @@ public function enable()
 }
 ```
 
-Ç¨ÒÆ¹¤¾ß»áÔÚ`/migrations`ÖÐ²éÕÒÄãµÄ²å¼þ, ÈÃËùÓÐµÄ²å¼þ¸üÐÂµ½±È`hello:version`¸ü¸ßµÄµÈ¼¶, ÔËÐÐËùÓÐÕâÐ©½Å±¾²¢¸ø`$version`ÉèÖÃÐÂÖµ£¬Õâ¾Í±íÊ¾Ç¨ÒÆÒÑ¾­Íê³É
+è¿ç§»å·¥å…·ä¼šåœ¨`/migrations`ä¸­æŸ¥æ‰¾ä½ çš„æ’ä»¶, è®©æ‰€æœ‰çš„æ’ä»¶æ›´æ–°åˆ°æ¯”`hello:version`æ›´é«˜çš„ç­‰çº§, è¿è¡Œæ‰€æœ‰è¿™äº›è„šæœ¬å¹¶ç»™`$version`è®¾ç½®æ–°å€¼ï¼Œè¿™å°±è¡¨ç¤ºè¿ç§»å·²ç»å®Œæˆ
 
-### Ç¨ÒÆÎÄ¼þ 
+### è¿ç§»æ–‡ä»¶ 
 
-Ç¨ÒÆÎÄ¼þÍ¨³£Î»ÓÚÄú²å¼þµÄ `/migrations` ÎÄ¼þ¼ÐÀï²¢ÇÒÓÐÒ»¶¨µÄË³Ðò¡£ A Ç¨ÒÆÎÄ¼þÍ¨³£ÒÔÊ±¼ä+×Ô¶¨ÒåÃû³ÆµÄ·½Ê½ÃüÃû: `YYYY-MM-DD_some_name.php` (ÀýÈç `0000-00-00_init.php`).
+è¿ç§»æ–‡ä»¶é€šå¸¸ä½äºŽæ‚¨æ’ä»¶çš„ `/migrations` æ–‡ä»¶å¤¹é‡Œå¹¶ä¸”æœ‰ä¸€å®šçš„é¡ºåºã€‚ A è¿ç§»æ–‡ä»¶é€šå¸¸ä»¥æ—¶é—´+è‡ªå®šä¹‰åç§°çš„æ–¹å¼å‘½å: `YYYY-MM-DD_some_name.php` (ä¾‹å¦‚ `0000-00-00_init.php`).
 
-ÔÚÇ¨ÒÆÎÄ¼þÖÐ, Äú¿ÉÒÔÎªÄúµÄ´úÂë½¨Á¢Ò»¸öÓÐ`up` ºÍ `down`±Õ°üº¯ÊýµÄÊý×é£¬Í¨¹ýÊ¹ÓÃ `use ($app)`,Äú¿ÉÒÔ·ÃÎÊËùÓÐµÄÓ¦ÓÃ·þÎñ, ÀýÈçÀûÓÃ`db`·þÎñ·ÃÎÊÊý¾Ý¿â¡£
+åœ¨è¿ç§»æ–‡ä»¶ä¸­, æ‚¨å¯ä»¥ä¸ºæ‚¨çš„ä»£ç å»ºç«‹ä¸€ä¸ªæœ‰`up` å’Œ `down`é—­åŒ…å‡½æ•°çš„æ•°ç»„ï¼Œé€šè¿‡ä½¿ç”¨ `use ($app)`,æ‚¨å¯ä»¥è®¿é—®æ‰€æœ‰çš„åº”ç”¨æœåŠ¡, ä¾‹å¦‚åˆ©ç”¨`db`æœåŠ¡è®¿é—®æ•°æ®åº“ã€‚
 
 ```php
 <?php
@@ -67,13 +67,13 @@ return [
 
 ```
 
-ÔÚºÜ¶àÇé¿öÏÂ£¬Äã²»ÓÃÖ´ÐÐ `down` ²Ù×÷,³ý·ÇÄãÏëÊµÏÖ½µ¼¶µÄ²Ù×÷¡£
+åœ¨å¾ˆå¤šæƒ…å†µä¸‹ï¼Œä½ ä¸ç”¨æ‰§è¡Œ `down` æ“ä½œ,é™¤éžä½ æƒ³å®žçŽ°é™çº§çš„æ“ä½œã€‚
 
-## ½ûÓÃ
+## ç¦ç”¨
 
-Pagekit²»»áÐÞ¸ÄÄãËù´´½¨µÄ±í£¬¼´±ãÊÇÄãµÄÀ©Õ¹ÔÚºóÌ¨±»*disabled*»ò*removed*Ê±¡£Äã½«²»µÃ²»ÐÞ¸ÄÊý¾Ý¿â£¬¶ø²»ÆÚÍûËü×Ô¼º¸Ä±ä¡£
+Pagekitä¸ä¼šä¿®æ”¹ä½ æ‰€åˆ›å»ºçš„è¡¨ï¼Œå³ä¾¿æ˜¯ä½ çš„æ‰©å±•åœ¨åŽå°è¢«*disabled*æˆ–*removed*æ—¶ã€‚ä½ å°†ä¸å¾—ä¸ä¿®æ”¹æ•°æ®åº“ï¼Œè€Œä¸æœŸæœ›å®ƒè‡ªå·±æ”¹å˜ã€‚
 
-µ±ÄúµÄ²å¼þ±»½ûÓÃÊ±(ÓÃ»§²Ù×÷»òÉý¼¶²Ù×÷), Äú¿ÉÒÔÔÚ`Extension` ×ÓÀàÔö¼Ó `disable` ²Ù×÷, ¾ÍÏñÔö¼Ó`enable`²Ù×÷µÄ·½·¨Ò»Ñù.
+å½“æ‚¨çš„æ’ä»¶è¢«ç¦ç”¨æ—¶(ç”¨æˆ·æ“ä½œæˆ–å‡çº§æ“ä½œ), æ‚¨å¯ä»¥åœ¨`Extension` å­ç±»å¢žåŠ  `disable` æ“ä½œ, å°±åƒå¢žåŠ `enable`æ“ä½œçš„æ–¹æ³•ä¸€æ ·.
 
 ```php
 <?php
@@ -90,11 +90,11 @@ class HelloExtension extends Extension
 }
 ```
 
-## Ð¶ÔØ
+## å¸è½½
 
-µ±Ð¶ÔØ²å¼þÊ±£¬ÄãÓ¦¸ÃÉ¾³ýËùÓÐ¸Ã²å¼þÐÂ½¨µÄÊý¾Ý±í£¬µ«ÔÚÄ³Ð©Çé¿öÏÂ£¬Äã»áÏ£Íû±£ÁôÔ­À´µÄÊý¾Ý²¢ÖØÐÂ°²×°²å¼þ£¬²»ÂÛÈçºÎ£¬ÕâÊÇÄúµÄ¾ö¶¨¡£
+å½“å¸è½½æ’ä»¶æ—¶ï¼Œä½ åº”è¯¥åˆ é™¤æ‰€æœ‰è¯¥æ’ä»¶æ–°å»ºçš„æ•°æ®è¡¨ï¼Œä½†åœ¨æŸäº›æƒ…å†µä¸‹ï¼Œä½ ä¼šå¸Œæœ›ä¿ç•™åŽŸæ¥çš„æ•°æ®å¹¶é‡æ–°å®‰è£…æ’ä»¶ï¼Œä¸è®ºå¦‚ä½•ï¼Œè¿™æ˜¯æ‚¨çš„å†³å®šã€‚
 
-ÕýÈçÄãÒÑ¾­²Âµ½µÄÒ»Ñù£¬ÓÐ¿ÉÒÔ¿ÉÒÔÖ±½Ó½øÐÐ `uninstall` µÄ·½·¨
+æ­£å¦‚ä½ å·²ç»çŒœåˆ°çš„ä¸€æ ·ï¼Œæœ‰å¯ä»¥å¯ä»¥ç›´æŽ¥è¿›è¡Œ `uninstall` çš„æ–¹æ³•
 
 ```php
 

@@ -1,49 +1,49 @@
-# ²å¼þ
+# æ’ä»¶
 
-<p class="uk-article-lead">ÐÂ½¨²å¼þÎªÄãµÄPagekitÔöÌí¹¦ÄÜ</p>
+<p class="uk-article-lead">æ–°å»ºæ’ä»¶ä¸ºä½ çš„Pagekitå¢žæ·»åŠŸèƒ½</p>
 
-Ò»Ð©PagekitµÄÄ¬ÈÏ¹¦ÄÜ (Ò³Ãæ¡¢°²×°Æ÷ÉõÖÁ¹ÜÀíÃæ°å)ÊÇÊ¹ÓÃ²å¼þÊµÏÖµÄ. ´ËÍâ£¬ÔÚÉÌµêÄÚËÑË÷ *Hello Extension* Õâ¸ö×î»ù±¾µÄ²å¼þ. Çë¿´Ò»ÏÂ`/extensions` Õâ¸öÄ¿Â¼
+ä¸€äº›Pagekitçš„é»˜è®¤åŠŸèƒ½ (é¡µé¢ã€å®‰è£…å™¨ç”šè‡³ç®¡ç†é¢æ¿)æ˜¯ä½¿ç”¨æ’ä»¶å®žçŽ°çš„. æ­¤å¤–ï¼Œåœ¨å•†åº—å†…æœç´¢ *Hello Extension* è¿™ä¸ªæœ€åŸºæœ¬çš„æ’ä»¶. è¯·çœ‹ä¸€ä¸‹`/extensions` è¿™ä¸ªç›®å½•
 
-## »ù±¾½á¹¹ 
+## åŸºæœ¬ç»“æž„ 
 
-ÓÐ¼¸ÖÖÀàÐÍµÄ²å¼þ£¬µ«ËüÃÇ¶¼×ñÑ­ÏàÍ¬µÄ»ù±¾Ä£Ê½¡£±¾ÕÂ½«ÎªÄúÌá¹©ÓÐ¹ØÒ»°ã·½·¨µÄ¼òÒª¸ÅÊö¡£¾ÍÏñÓëÖ÷ÌâÒ»Ñù£¬ÃüÁîÐÐ¹¤¾ßÖ§³ÖÉú³ÉÐÂµÄ²å¼þµÄ¹Ç¼ÜÎÄ¼þ½á¹¹£º
+æœ‰å‡ ç§ç±»åž‹çš„æ’ä»¶ï¼Œä½†å®ƒä»¬éƒ½éµå¾ªç›¸åŒçš„åŸºæœ¬æ¨¡å¼ã€‚æœ¬ç« å°†ä¸ºæ‚¨æä¾›æœ‰å…³ä¸€èˆ¬æ–¹æ³•çš„ç®€è¦æ¦‚è¿°ã€‚å°±åƒä¸Žä¸»é¢˜ä¸€æ ·ï¼Œå‘½ä»¤è¡Œå·¥å…·æ”¯æŒç”Ÿæˆæ–°çš„æ’ä»¶çš„éª¨æž¶æ–‡ä»¶ç»“æž„ï¼š
 ```bash
 pagekit extension:generate <extension_name>
 ```
 
-ÈÃÎÒÃÇÐÂ½¨Ò»¸ö*Hello*²å¼þÒÔ¿ªÊ¼ÎÒÃÇµÄ½Ì³Ì
+è®©æˆ‘ä»¬æ–°å»ºä¸€ä¸ª*Hello*æ’ä»¶ä»¥å¼€å§‹æˆ‘ä»¬çš„æ•™ç¨‹
 
-**Ö÷Òå** Äã¿ÉÒÔ´ÓÉÌµêÏÂÔØ*Hello extension*µÄÍêÕû°æ
+**ä¸»ä¹‰** ä½ å¯ä»¥ä»Žå•†åº—ä¸‹è½½*Hello extension*çš„å®Œæ•´ç‰ˆ
 
 ```bash
 cd path/to/pagekit
 pagekit extension:generate hello
 ```
 
-Äú»á±»ÒªÇóÌá¹©ÒÔÏÂÐÅÏ¢£º
-| ÐÅÏ¢            | ÃèÊö         |
+æ‚¨ä¼šè¢«è¦æ±‚æä¾›ä»¥ä¸‹ä¿¡æ¯ï¼š
+| ä¿¡æ¯            | æè¿°         |
 |-----------------|-------------|
-| *Title*         | ºóÌ¨ÏÔÊ¾µÄ²å¼þÃû×Ö,Èç 'Hello Extension' |
-| *Author*        | ÄúµÄÃû×Ö |
-| *Email*         | ÄúµÄµç×ÓÓÊ¼þµØÖ· |
-| *PHP Namespace* | ²å¼þµÄPHPÃüÃû¿Õ¼ä, Èç `Pagekit\Hello`¡£ |
+| *Title*         | åŽå°æ˜¾ç¤ºçš„æ’ä»¶åå­—,å¦‚ 'Hello Extension' |
+| *Author*        | æ‚¨çš„åå­— |
+| *Email*         | æ‚¨çš„ç”µå­é‚®ä»¶åœ°å€ |
+| *PHP Namespace* | æ’ä»¶çš„PHPå‘½åç©ºé—´, å¦‚ `Pagekit\Hello`ã€‚ |
 
-Õâ²½½«²úÉúÄ¿Â¼`/extensions/hello`ÀïÃæµÄÒÔÏÂÎÄ¼þ½á¹¹¡£Èç¹ûÄã²»ÏëÊ¹ÓÃÃüÁîÐÐ¹¤¾ß£¬Äú¿ÉÒÔÊÖ¶¯´´½¨Ò»ÏÂÎÄ¼þ
+è¿™æ­¥å°†äº§ç”Ÿç›®å½•`/extensions/hello`é‡Œé¢çš„ä»¥ä¸‹æ–‡ä»¶ç»“æž„ã€‚å¦‚æžœä½ ä¸æƒ³ä½¿ç”¨å‘½ä»¤è¡Œå·¥å…·ï¼Œæ‚¨å¯ä»¥æ‰‹åŠ¨åˆ›å»ºä¸€ä¸‹æ–‡ä»¶
 
-| ÎÄ¼þ¼Ð/ÎÄ¼þ    |½éÉÜ         |
+| æ–‡ä»¶å¤¹/æ–‡ä»¶    |ä»‹ç»         |
 |---------------|-------------|
-| `/src` | ½«ËùÓÐµÄ´úÂë´ËÎÄ¼þ¼ÐÖÐ|
-| `/src/Controller` | ÔÚÕâÀï·ÅÖÃ¿ØÖÆÆ÷ |
-| `/src/Controller/DefaultController.php`| Ä¬ÈÏµÄ¿ØÖÆÆ÷Àà |
-| `/src/HelloExtension.php` | ²å¼þµÄÖ÷Òª²¿·Ö£¬´ÓÕâÀï²å¼þ¿ªÊ¼Æô¶¯ |
-| `extension.json` | ±£´æÔªÊý¾ÝÌåÏµºÍÊÐ³¡ÐÅÏ¢ |
-| `extension.php` | ´æ·Å²å¼þÆô¶¯Òýµ¼ºÍÅäÖÃ´úÂë |
+| `/src` | å°†æ‰€æœ‰çš„ä»£ç æ­¤æ–‡ä»¶å¤¹ä¸­|
+| `/src/Controller` | åœ¨è¿™é‡Œæ”¾ç½®æŽ§åˆ¶å™¨ |
+| `/src/Controller/DefaultController.php`| é»˜è®¤çš„æŽ§åˆ¶å™¨ç±» |
+| `/src/HelloExtension.php` | æ’ä»¶çš„ä¸»è¦éƒ¨åˆ†ï¼Œä»Žè¿™é‡Œæ’ä»¶å¼€å§‹å¯åŠ¨ |
+| `extension.json` | ä¿å­˜å…ƒæ•°æ®ä½“ç³»å’Œå¸‚åœºä¿¡æ¯ |
+| `extension.php` | å­˜æ”¾æ’ä»¶å¯åŠ¨å¼•å¯¼å’Œé…ç½®ä»£ç  |
 
-**×¢Òâ**ÎÞ·¨¿´µ½ÔÚÇ°Ì¨Ëù×öµÄ¸ü¸Ä£¿±ðÍüÁË´ÓºóÌ¨¿ªÆôÄúµÄ²å¼þ
+**æ³¨æ„**æ— æ³•çœ‹åˆ°åœ¨å‰å°æ‰€åšçš„æ›´æ”¹ï¼Ÿåˆ«å¿˜äº†ä»ŽåŽå°å¼€å¯æ‚¨çš„æ’ä»¶
 
-## ÔªÊý¾Ý
+## å…ƒæ•°æ®
 
-`extension.json` ÊÇ´æ·ÅÄúµÄ²å¼þÊý¾Ý(Ðí¿ÉÖ¤£¬×÷ÕßµÈ)µÄjsonÎÄ¼þ£¬Õâ¸öÎÄ¼þÖ÷ÒªÊÇÔÚÄú°Ñ²å¼þÉÏ´«µ½ÉÌµêÉÏÊ±»òÕßÔÚºóÌ¨ÈçºÎ±íÊ¾ÄúµÄ²å¼þÊ±ÓÃµ½¡£
+`extension.json` æ˜¯å­˜æ”¾æ‚¨çš„æ’ä»¶æ•°æ®(è®¸å¯è¯ï¼Œä½œè€…ç­‰)çš„jsonæ–‡ä»¶ï¼Œè¿™ä¸ªæ–‡ä»¶ä¸»è¦æ˜¯åœ¨æ‚¨æŠŠæ’ä»¶ä¸Šä¼ åˆ°å•†åº—ä¸Šæ—¶æˆ–è€…åœ¨åŽå°å¦‚ä½•è¡¨ç¤ºæ‚¨çš„æ’ä»¶æ—¶ç”¨åˆ°ã€‚
 
 ```json
 {
@@ -66,11 +66,11 @@ pagekit extension:generate hello
 }
 ```
 
-## ÅäÖÃ
+## é…ç½®
 
-`extension.php` ÊÇ°üº¬µÄ²å¼þÅäÖÃPHP´úÂë£¬´´½¨µÄÄ¬ÈÏÎÄ¼þ½«×Ô¶¯¼ÓÔØÄãµÄ¿ØÖÆÆ÷ºÍÆäËûÔÚÃüÃû¿Õ¼äÀïµÄÀà¡£ ÕâÒ²¾ö¶¨ÁËÄãµÄÖ÷ÒªÀ©Õ¹ÊµÀý(`HelloExtension`ÊÇ `Pagekit\Framework\Extension`µÄ×ÓÀà)¡£
+`extension.php` æ˜¯åŒ…å«çš„æ’ä»¶é…ç½®PHPä»£ç ï¼Œåˆ›å»ºçš„é»˜è®¤æ–‡ä»¶å°†è‡ªåŠ¨åŠ è½½ä½ çš„æŽ§åˆ¶å™¨å’Œå…¶ä»–åœ¨å‘½åç©ºé—´é‡Œçš„ç±»ã€‚ è¿™ä¹Ÿå†³å®šäº†ä½ çš„ä¸»è¦æ‰©å±•å®žä¾‹(`HelloExtension`æ˜¯ `Pagekit\Framework\Extension`çš„å­ç±»)ã€‚
 
-ÎÒÃÇ½«ÔÚ[Configuration](configuration.md) ¾ßÌå½éÉÜÕâ¸öÎÄ¼þ
+æˆ‘ä»¬å°†åœ¨[Configuration](configuration.md) å…·ä½“ä»‹ç»è¿™ä¸ªæ–‡ä»¶
 
 ```php
 <?php
