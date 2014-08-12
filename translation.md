@@ -1,12 +1,12 @@
-# ·­Òë
+# ç¿»è¯‘
 
-<p class="uk-article-lead">Pagekit¿ÉÒÔÓÃ²»Í¬µÄÓïÑÔÏÔÊ¾ÐÅÏ¢</p>
+<p class="uk-article-lead">Pagekitå¯ä»¥ç”¨ä¸åŒçš„è¯­è¨€æ˜¾ç¤ºä¿¡æ¯</p>
 
-**×¢Òâ** ÏàÍ¬µÄÓïÑÔÔÚ²»Í¬µÄµØÇø¿ÉÄÜÓÐ²î±ð(Èç `en_GB` ¶Ô±È `en_US`).
+**æ³¨æ„** ç›¸åŒçš„è¯­è¨€åœ¨ä¸åŒçš„åœ°åŒºå¯èƒ½æœ‰å·®åˆ«(å¦‚ `en_GB` å¯¹æ¯” `en_US`).
 
-## ÓïÑÔÎÄ¼þ
+## è¯­è¨€æ–‡ä»¶
 
-Pagekit¶¼ÓÐÌá¹©ÓïÑÔÎÄ¼þ
+Pagekitéƒ½æœ‰æä¾›è¯­è¨€æ–‡ä»¶
 
 ```
 /languages
@@ -22,23 +22,23 @@ Pagekit¶¼ÓÐÌá¹©ÓïÑÔÎÄ¼þ
   messages.pot
 ```
 
-| ÎÄ¼þ¼Ð/ÎÄ¼þ | ÃèÊö           |
+| æ–‡ä»¶å¤¹/æ–‡ä»¶ | æè¿°           |
 |----------------|-------------|
-| `/en_US` <br> `/de_DE`           | Ã¿¸öÎÄ¼þ¼Ð¶ÔÓ¦Ò»¸öÇøÓò£¬ËüµÄÃû×ÖÊÇÓÃÀ´Æ¥Åä²»Í¬ÓÃ»§µÄÓïÑÔ»·¾³¡£|
-| `messages.po`                    | »ùÓÚ`messages.pot`µÄ±¾µØ»¯°æ±¾¡£ |
-| `messages.mo`                    | Í¨¹ý`messages.po`±àÒë³öµÄ¶þ½øÖÆÎÄ¼þ ·­Òë¿ÉÒÔÔÚÃ»ÓÐÕâ¸öÎÄ¼þµÄÇé¿öÏÂÔËÐÐ£¬µ«¿ÉÄÜËÙ¶È»á¼õÂý¡£ |
-| `messages.pot`                   |ÕâÊÇ°üº¬ËùÓÐ¿É·­Òë×Ö·û´®ºÍËûÃÇµÄÄ¬ÈÏ·­ÒëµÄÎÄ¼þ (Í¨³£ÊÇÓ¢ÎÄ)£¬ÒÔÕâ¸öÎÄ¼þÎª»ù´¡ÐÂ½¨±¾µØ»¯°æ±¾|
+| `/en_US` <br> `/de_DE`           | æ¯ä¸ªæ–‡ä»¶å¤¹å¯¹åº”ä¸€ä¸ªåŒºåŸŸï¼Œå®ƒçš„åå­—æ˜¯ç”¨æ¥åŒ¹é…ä¸åŒç”¨æˆ·çš„è¯­è¨€çŽ¯å¢ƒã€‚|
+| `messages.po`                    | åŸºäºŽ`messages.pot`çš„æœ¬åœ°åŒ–ç‰ˆæœ¬ã€‚ |
+| `messages.mo`                    | é€šè¿‡`messages.po`ç¼–è¯‘å‡ºçš„äºŒè¿›åˆ¶æ–‡ä»¶ ç¿»è¯‘å¯ä»¥åœ¨æ²¡æœ‰è¿™ä¸ªæ–‡ä»¶çš„æƒ…å†µä¸‹è¿è¡Œï¼Œä½†å¯èƒ½é€Ÿåº¦ä¼šå‡æ…¢ã€‚ |
+| `messages.pot`                   |è¿™æ˜¯åŒ…å«æ‰€æœ‰å¯ç¿»è¯‘å­—ç¬¦ä¸²å’Œä»–ä»¬çš„é»˜è®¤ç¿»è¯‘çš„æ–‡ä»¶ (é€šå¸¸æ˜¯è‹±æ–‡)ï¼Œä»¥è¿™ä¸ªæ–‡ä»¶ä¸ºåŸºç¡€æ–°å»ºæœ¬åœ°åŒ–ç‰ˆæœ¬|
 
-·­ÒëÊÇ´ÓÓ¢ÎÄ×Ö·û´®µ½±¾µØ»¯°æ±¾×Ö·û´®µÄÒ»¸öÓ³Éä
+ç¿»è¯‘æ˜¯ä»Žè‹±æ–‡å­—ç¬¦ä¸²åˆ°æœ¬åœ°åŒ–ç‰ˆæœ¬å­—ç¬¦ä¸²çš„ä¸€ä¸ªæ˜ å°„
 
 ```
 msgid "No database connection."
 msgstr "Keine Datenbankverbindung."
 ```
 
-## Ê¹ÓÃ·½·¨
+## ä½¿ç”¨æ–¹æ³•
 
-Äã¿ÉÒÔÍ¨¹ýÔÚÊÓÍ¼ÖÐÊ¹ÓÃÈ«¾Öº¯Êý`__(...)`»ò`@trans(...)`À´»ñÈ¡±¾µØ»¯×Ö·û´®¡£Pagekit»á×Ô¶¯¼ì²éÓÃ»§ËùÔÚµØ£¬Ñ°ÕÒÊÇ·ñÓÐ¶ÔÓ¦µÄ±¾µØ»¯ÎÄ¼þ£¬²¢·µ»ØÏàÓ¦µÄÖµ¡£Õâ¾ÍÊÇ²»Ê¹ÓÃ`"hello_save_label"`¶ø×ª¶øÊ¹ÓÃ¼òµ¥µÄ`"Save"`À´±ê¼ÇÒ»¸ö×Ö·û´®¡£
+ä½ å¯ä»¥é€šè¿‡åœ¨è§†å›¾ä¸­ä½¿ç”¨å…¨å±€å‡½æ•°`__(...)`æˆ–`@trans(...)`æ¥èŽ·å–æœ¬åœ°åŒ–å­—ç¬¦ä¸²ã€‚Pagekitä¼šè‡ªåŠ¨æ£€æŸ¥ç”¨æˆ·æ‰€åœ¨åœ°ï¼Œå¯»æ‰¾æ˜¯å¦æœ‰å¯¹åº”çš„æœ¬åœ°åŒ–æ–‡ä»¶ï¼Œå¹¶è¿”å›žç›¸åº”çš„å€¼ã€‚è¿™å°±æ˜¯ä¸ä½¿ç”¨`"hello_save_label"`è€Œè½¬è€Œä½¿ç”¨ç®€å•çš„`"Save"`æ¥æ ‡è®°ä¸€ä¸ªå­—ç¬¦ä¸²ã€‚
 
 ```php
 $message = __("Save");
@@ -48,9 +48,9 @@ $message = __("Save");
 <a href="http://example.com">@trans("Visit website")</a>
 ```
 
-### ±äÁ¿
+### å˜é‡
 
-¼ÙÉèÄãÓÐÒ»¸ö`$name`ÎªÃû×ÖÒ»¸ö±äÁ¿£¬²¢Ï£Íû½«Æä°üº¬ÔÚÒ»¸ö±¾µØ»¯µÄ×Ö·û´®ÖÐ¡£Äú¿ÉÒÔ½«¸Ã²ÎÊý´«µÝ¸ø·­Òë¹¦ÄÜ×ö¼òµ¥µÄ×Ö·û´®Ìæ»»¡£
+å‡è®¾ä½ æœ‰ä¸€ä¸ª`$name`ä¸ºåå­—ä¸€ä¸ªå˜é‡ï¼Œå¹¶å¸Œæœ›å°†å…¶åŒ…å«åœ¨ä¸€ä¸ªæœ¬åœ°åŒ–çš„å­—ç¬¦ä¸²ä¸­ã€‚æ‚¨å¯ä»¥å°†è¯¥å‚æ•°ä¼ é€’ç»™ç¿»è¯‘åŠŸèƒ½åšç®€å•çš„å­—ç¬¦ä¸²æ›¿æ¢ã€‚
 
 ```php
 $messages = __("Hello %name%!", ["%name%" => $name]);
@@ -61,54 +61,54 @@ $messages = __("Hello %name%!", ["%name%" => $name]);
 @trans("Hello %name%!", ["%name%" => name])
 ```
 
-### ³ÉÎª¸´Êý
+### æˆä¸ºå¤æ•°
 
-´Ó¶à¸öÐÅÏ¢ÖÐÑ¡ÔñÈ¡¾öÓÚÊý×Ö£¬Äã¿ÉÒÔÖ¸¶¨´úÌæµÄÓï·¨£¬²¢È·¶¨Ä³Ð©Êý×Ö£¬ÉõÖÁ¼ä¸ô£¬Ê¹ÓÃ`_c(...)`º¯Êý(ÔÚÄ£°æÖÐÊ¹ÓÃ`@+ranschoice` )Ò²Ö§³ÖÌæ»»²ÎÊý¡£
+ä»Žå¤šä¸ªä¿¡æ¯ä¸­é€‰æ‹©å–å†³äºŽæ•°å­—ï¼Œä½ å¯ä»¥æŒ‡å®šä»£æ›¿çš„è¯­æ³•ï¼Œå¹¶ç¡®å®šæŸäº›æ•°å­—ï¼Œç”šè‡³é—´éš”ï¼Œä½¿ç”¨`_c(...)`å‡½æ•°(åœ¨æ¨¡ç‰ˆä¸­ä½¿ç”¨`@+ranschoice` )ä¹Ÿæ”¯æŒæ›¿æ¢å‚æ•°ã€‚
 
 ```HTML
 @transchoice("{0}No posts|{1}One name|]1,Inf] %names% names", names|length, ["%names%" => names|length])
 ```
 
-ÈôÒªÖ¸¶¨ÏàÆ¥ÅäµÄºÅÂë£¬Äú¿ÉÒÔÊ¹ÓÃ´óÀ¨ºÅÖÐ¼ÓÊý×Ö`{0}`µÄ½á¹¹£¬±êÇ©`one:` `more:`»ò `]1,Inf]`. À´ÈÃÆä¾ßÓÐ¿É¶ÁÐÔ¡£ÕâÐ©±äÌåÒ²¿ÉÒÔ»ìºÏÊ¹ÓÃ¡£
+è‹¥è¦æŒ‡å®šç›¸åŒ¹é…çš„å·ç ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨å¤§æ‹¬å·ä¸­åŠ æ•°å­—`{0}`çš„ç»“æž„ï¼Œæ ‡ç­¾`one:` `more:`æˆ– `]1,Inf]`. æ¥è®©å…¶å…·æœ‰å¯è¯»æ€§ã€‚è¿™äº›å˜ä½“ä¹Ÿå¯ä»¥æ··åˆä½¿ç”¨ã€‚
 
 ```HTML
 @transchoice("{0}: No names|one: One name|more: %names% names", names|length, ["%names%" => names|length])
 ```
 
-¼ä¸ô¿ÉÒÔ´ú±íÒ»¸öÓÐÏÞµÄÒ»×éÊý×Ö£º `{1,2,3,4}` £¬Ëü¿ÉÒÔ´ú±íÁ½¸öÊý×ÖÖ®¼äµÄÊý×Ö£º`[1, +Inf]`, `]-1,2[`,×ó±ßµÄ·Ö¸ô·û¿ÉÒÔÊÇ `[` (º¬) »ò `]` (¶ÀÓÐ)¡£ÓÒ²àµÄ·Ö¸ô·û¿ÉÒÔÊÇ `[` (¶ÀÓÐ) »ò `]` (º¬)¡£ ³ýÁËÊý×Ö£¬Äã¿ÉÒÔÊ¹ÓÃ`-Inf` ºÍ `+Inf`±íÊ¾ÎÞÇî´ó¡£
+é—´éš”å¯ä»¥ä»£è¡¨ä¸€ä¸ªæœ‰é™çš„ä¸€ç»„æ•°å­—ï¼š `{1,2,3,4}` ï¼Œå®ƒå¯ä»¥ä»£è¡¨ä¸¤ä¸ªæ•°å­—ä¹‹é—´çš„æ•°å­—ï¼š`[1, +Inf]`, `]-1,2[`,å·¦è¾¹çš„åˆ†éš”ç¬¦å¯ä»¥æ˜¯ `[` (å«) æˆ– `]` (ç‹¬æœ‰)ã€‚å³ä¾§çš„åˆ†éš”ç¬¦å¯ä»¥æ˜¯ `[` (ç‹¬æœ‰) æˆ– `]` (å«)ã€‚ é™¤äº†æ•°å­—ï¼Œä½ å¯ä»¥ä½¿ç”¨`-Inf` å’Œ `+Inf`è¡¨ç¤ºæ— ç©·å¤§ã€‚
 
-## ´´½¨ÓïÑÔÎÄ¼þ
+## åˆ›å»ºè¯­è¨€æ–‡ä»¶
 
-Òª·­ÒëÄú×Ô¼ºµÄ²å¼þ¿ÉÒÔÊ¹ÓÃÃüÁîÐÐ¹¤¾ß£¬Ëü»á×Ô¶¯ÌáÈ¡ÓÐÒâÒåµÄµÄ×Ö·û´®¡£
+è¦ç¿»è¯‘æ‚¨è‡ªå·±çš„æ’ä»¶å¯ä»¥ä½¿ç”¨å‘½ä»¤è¡Œå·¥å…·ï¼Œå®ƒä¼šè‡ªåŠ¨æå–æœ‰æ„ä¹‰çš„çš„å­—ç¬¦ä¸²ã€‚
 
 ```bash
 ./pagekit extension:translate hello
 ```
 
-Ëü»á´´½¨ `/extension/hello/languages/messages.pot` £¬ÆäÖÐ°üº¬ËùÓÐµÄÒÑ·¢ÏÖµÄ×Ö·û´®¡£ÕâÐ©×Ö·û´®ÊÇÍ¨¹ýÄãÔÚÊÓÍ¼ÖÐµ÷ÓÃ `__()`, `_c()` or `@trans`, `@transchoice` º¯Êý¶ø±»·¢ÏÖµÄ¡£
+å®ƒä¼šåˆ›å»º `/extension/hello/languages/messages.pot` ï¼Œå…¶ä¸­åŒ…å«æ‰€æœ‰çš„å·²å‘çŽ°çš„å­—ç¬¦ä¸²ã€‚è¿™äº›å­—ç¬¦ä¸²æ˜¯é€šè¿‡ä½ åœ¨è§†å›¾ä¸­è°ƒç”¨ `__()`, `_c()` or `@trans`, `@transchoice` å‡½æ•°è€Œè¢«å‘çŽ°çš„ã€‚
 
-ÎªÄãÏëÒªÌá¹©µÄ±¾µØ»¯ÎÄµµ(Èç `/de_DE`)½¨Á¢Ò»¸öÎÄ¼þ¼Ð¸´ÖÆ`messages.pot`µ½ `/de_DE/messages.pot` ²¢¿ªÊ¼ÌîÐ´`msgstr`ÊôÐÔµÄ×Ö·û´®¡£Èç¹ûÄã²»Ïë×Ô¼º×ö, Äã¿ÉÒÔÊ¹ÓÃÈÎºÎ¿ÉÓÃµÄ¹¤¾ß, Ò»¸öºÜÁ÷ÐÐÈí¼þµÄÊÇ[poEdit](http://www.poedit.net/)£¬ÏñÕâÑùµÄ¹¤¾ßµÄÓÅµãÊÇ¿ÉÒÔ×Ô¶¯Éú³ÉµÄ¶þ½øÖÆ`*.mo`ÎÄ¼þ¡£
-## ¸üÐÂÓïÑÔÎÄ¼þ
+ä¸ºä½ æƒ³è¦æä¾›çš„æœ¬åœ°åŒ–æ–‡æ¡£(å¦‚ `/de_DE`)å»ºç«‹ä¸€ä¸ªæ–‡ä»¶å¤¹å¤åˆ¶`messages.pot`åˆ° `/de_DE/messages.pot` å¹¶å¼€å§‹å¡«å†™`msgstr`å±žæ€§çš„å­—ç¬¦ä¸²ã€‚å¦‚æžœä½ ä¸æƒ³è‡ªå·±åš, ä½ å¯ä»¥ä½¿ç”¨ä»»ä½•å¯ç”¨çš„å·¥å…·, ä¸€ä¸ªå¾ˆæµè¡Œè½¯ä»¶çš„æ˜¯[poEdit](http://www.poedit.net/)ï¼Œåƒè¿™æ ·çš„å·¥å…·çš„ä¼˜ç‚¹æ˜¯å¯ä»¥è‡ªåŠ¨ç”Ÿæˆçš„äºŒè¿›åˆ¶`*.mo`æ–‡ä»¶ã€‚
+## æ›´æ–°è¯­è¨€æ–‡ä»¶
 
-µ±ÄúÔÚ²é½¨ÖÐÌí¼Ó£¬É¾³ýºÍ¸ü¸ÄÒ»Ð©×Ö·û´®²¢ÇÒÖØÆô`./pagekit extension:translate hello`ºó,  `messages.pot` ÎÄ¼þÒ²»á±»ÖØÐÂÉú³É¡£ÏÖÔÚ£¬ÄúÐèÒª¸üÐÂÄúµÄ°üÀ¨ËùÓÐ`*.po`ºÍ`*.mo`µÄ±¾µØ»¯ÎÄ¼þ£¬µ±È»ÕâÐ©¿ÉÒÔÊÖ¶¯Íê³É£¬Èç¹ûÄúÊ¹ÓÃ [poEdit](http://www.poedit.net/) Ôò»áÓÐ¸üºÃµÄ·½·¨
+å½“æ‚¨åœ¨æŸ¥å»ºä¸­æ·»åŠ ï¼Œåˆ é™¤å’Œæ›´æ”¹ä¸€äº›å­—ç¬¦ä¸²å¹¶ä¸”é‡å¯`./pagekit extension:translate hello`åŽ,  `messages.pot` æ–‡ä»¶ä¹Ÿä¼šè¢«é‡æ–°ç”Ÿæˆã€‚çŽ°åœ¨ï¼Œæ‚¨éœ€è¦æ›´æ–°æ‚¨çš„åŒ…æ‹¬æ‰€æœ‰`*.po`å’Œ`*.mo`çš„æœ¬åœ°åŒ–æ–‡ä»¶ï¼Œå½“ç„¶è¿™äº›å¯ä»¥æ‰‹åŠ¨å®Œæˆï¼Œå¦‚æžœæ‚¨ä½¿ç”¨ [poEdit](http://www.poedit.net/) åˆ™ä¼šæœ‰æ›´å¥½çš„æ–¹æ³•
 
-1. ÓÃpoEdit´ò¿ªÒÑ¾­Íê³É±¾µØ»¯µÄÎÄ¼þÈç`/de_DE/messages.po`
-2. ´Ó²Ëµ¥ÖÐÑ¡Ôñ *Catalog > Update from POT file*
-3. Ñ¡ÔñÐÂÉú³ÉµÄ`messages.pot`.
-4. ÔÚ½ÓÏÂÀ´µÄ¶Ô»°¿ò½«°üÀ¨·­ÒëµÄÈÎºÎÐÂµÄ×Ö·û´®£¬`messages.mo`»á±»×Ô¶¯±£´æ
+1. ç”¨poEditæ‰“å¼€å·²ç»å®Œæˆæœ¬åœ°åŒ–çš„æ–‡ä»¶å¦‚`/de_DE/messages.po`
+2. ä»Žèœå•ä¸­é€‰æ‹© *Catalog > Update from POT file*
+3. é€‰æ‹©æ–°ç”Ÿæˆçš„`messages.pot`.
+4. åœ¨æŽ¥ä¸‹æ¥çš„å¯¹è¯æ¡†å°†åŒ…æ‹¬ç¿»è¯‘çš„ä»»ä½•æ–°çš„å­—ç¬¦ä¸²ï¼Œ`messages.mo`ä¼šè¢«è‡ªåŠ¨ä¿å­˜
 
-## ÈçºÎÈ·¶¨ÓïÑÔ»·¾³
+## å¦‚ä½•ç¡®å®šè¯­è¨€çŽ¯å¢ƒ
 
-µ±°²×°³ÌÐòÔËÐÐÊ±£¬ÓïÑÔ»·¾³ÊÇÍ¨¹ý¼ì²éÊ²Ã´ÓïÑÔ»·¾³ÖÐµÄÓÃ»§µÄä¯ÀÀÆ÷½ÓÊÜ×Ô¶¯È·¶¨¡£µ±PagekitÒÑ¾­°²×°ºó£¬Äã¿ÉÒÔÔÚºóÌ¨ÉèÖÃÓïÑÔ¡£
-**×¢Òâ** ÄúÖ»ÄÜÑ¡ÔñÏµÍ³¿ÉÓÃµÄÓïÑÔ
+å½“å®‰è£…ç¨‹åºè¿è¡Œæ—¶ï¼Œè¯­è¨€çŽ¯å¢ƒæ˜¯é€šè¿‡æ£€æŸ¥ä»€ä¹ˆè¯­è¨€çŽ¯å¢ƒä¸­çš„ç”¨æˆ·çš„æµè§ˆå™¨æŽ¥å—è‡ªåŠ¨ç¡®å®šã€‚å½“Pagekitå·²ç»å®‰è£…åŽï¼Œä½ å¯ä»¥åœ¨åŽå°è®¾ç½®è¯­è¨€ã€‚
+**æ³¨æ„** æ‚¨åªèƒ½é€‰æ‹©ç³»ç»Ÿå¯ç”¨çš„è¯­è¨€
 
 ## Working with message domains
 
-`__(...)`/`@trans` º¯ÊýºÍ`_c(...)`/`@transchoice` º¯ÊýÓÐÈý¸ö²ÎÊýÉèÖÃ*Óò*Ä¬ÈÏµÄÓòÊÇ `messages`Õâ¾ÍÊÇÎÒÃÇÒ»Ö±ÒÔ`messages.*`ÎªÃû´¦ÀíÐÅÏ¢µÄÔ­Òò£¬ËùÓÐµÄ²å¼þ¶¼¹«ÓÃÒ»¸öÓò£¬Õâ¾ÍÊÇÎªÊ²Ã´ËùÓÐµÄ·­Òë×Ö·û´®¿ÉÒÔ²»ÓÃÖØÐÂ·­Òë¶øÁ¢¼´Ê¹ÓÃµÄÔ­ÒòÁË¡£Õâ°üÀ¨³£¼ûµÄÊõÓïÈç*±£´æ*, *´íÎó* »òÕß*ÔÂ·Ý*µÄÃû×Ö.
+`__(...)`/`@trans` å‡½æ•°å’Œ`_c(...)`/`@transchoice` å‡½æ•°æœ‰ä¸‰ä¸ªå‚æ•°è®¾ç½®*åŸŸ*é»˜è®¤çš„åŸŸæ˜¯ `messages`è¿™å°±æ˜¯æˆ‘ä»¬ä¸€ç›´ä»¥`messages.*`ä¸ºåå¤„ç†ä¿¡æ¯çš„åŽŸå› ï¼Œæ‰€æœ‰çš„æ’ä»¶éƒ½å…¬ç”¨ä¸€ä¸ªåŸŸï¼Œè¿™å°±æ˜¯ä¸ºä»€ä¹ˆæ‰€æœ‰çš„ç¿»è¯‘å­—ç¬¦ä¸²å¯ä»¥ä¸ç”¨é‡æ–°ç¿»è¯‘è€Œç«‹å³ä½¿ç”¨çš„åŽŸå› äº†ã€‚è¿™åŒ…æ‹¬å¸¸è§çš„æœ¯è¯­å¦‚*ä¿å­˜*, *é”™è¯¯* æˆ–è€…*æœˆä»½*çš„åå­—.
 
-ÊÂÊµÉÏ£¬µ±ÎÒÃÇµ÷ÓÃ`./pagekit extension:translate hello` ÓÉ´Ë²úÉúµÄ`messages.pot`²»°üÀ¨ÈÎºÎÏµÍ³µÄÏûÏ¢¼´Ê¹ÊÇÓÉ²å¼þ±¾Éí²úÉú¡£
+äº‹å®žä¸Šï¼Œå½“æˆ‘ä»¬è°ƒç”¨`./pagekit extension:translate hello` ç”±æ­¤äº§ç”Ÿçš„`messages.pot`ä¸åŒ…æ‹¬ä»»ä½•ç³»ç»Ÿçš„æ¶ˆæ¯å³ä½¿æ˜¯ç”±æ’ä»¶æœ¬èº«äº§ç”Ÿã€‚
 
-ÓÐ¿ÉÄÜÄú²»Ïë´ÓÄ¬ÈÏÓò¹²ÏíÐÅÏ¢£¬ÄÇÃ´¾ÍÉèÖÃÒ»ÏÂÄú×Ô¼ºµÄÓò²¢ÖØÐÂÉú³ÉÒ»ÏÂ `*.pot` ÎÄ¼þ¡£Îª´Ë£¬Äú¿ÉÒÔÎªµ¥¸ö×Ö·û´®»òÉèÖÃ²ÎÊýµÄËùÓÐ×Ö·û´®£¬ÒÔ±£³ÖÄúµÄ±¾µØ»¯´ÓÏµÍ³ÍêÈ«·Ö¿ª¡£
+æœ‰å¯èƒ½æ‚¨ä¸æƒ³ä»Žé»˜è®¤åŸŸå…±äº«ä¿¡æ¯ï¼Œé‚£ä¹ˆå°±è®¾ç½®ä¸€ä¸‹æ‚¨è‡ªå·±çš„åŸŸå¹¶é‡æ–°ç”Ÿæˆä¸€ä¸‹ `*.pot` æ–‡ä»¶ã€‚ä¸ºæ­¤ï¼Œæ‚¨å¯ä»¥ä¸ºå•ä¸ªå­—ç¬¦ä¸²æˆ–è®¾ç½®å‚æ•°çš„æ‰€æœ‰å­—ç¬¦ä¸²ï¼Œä»¥ä¿æŒæ‚¨çš„æœ¬åœ°åŒ–ä»Žç³»ç»Ÿå®Œå…¨åˆ†å¼€ã€‚
 
 ```php
 $msg = __("Hello Universe", [], "hello");
